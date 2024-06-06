@@ -11,7 +11,7 @@ class Biblioteca:
     def __init__(self):
         self.livros = []
         self.carregar_dados()
-        if not self.livros:  # Inicializa a biblioteca com alguns livros predefinidos
+        if not self.livros: 
             self.inicializar_biblioteca()
 
     def inicializar_biblioteca(self):
@@ -119,6 +119,4 @@ def menu():
         
         else:
             print("Opção inválida. Por favor, escolha novamente.")
-
-# Inicializa o menu do sistema de biblioteca
 menu()
